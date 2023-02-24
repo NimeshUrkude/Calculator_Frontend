@@ -2,7 +2,6 @@ import './App.css';
 import reactnativelogo from "./Icons/reactnativelogo.png";
 import flutterlogo from "./Icons/flutterlogo.png";
 import app from "./Icons/app.png";
-import calculator from "./Icons/calculator.jpeg";
 
 function App() {
   return (
@@ -14,8 +13,8 @@ function App() {
       <table class="comparison-table">
         <thead>
           <th>&nbsp;</th>
-          <th><img src={flutterlogo}/></th>
-          <th><img src={reactnativelogo}/></th>
+          <th><img src={flutterlogo} alt="Flutter Logo"/></th>
+          <th><img src={reactnativelogo} alt="React Native Logo"/></th>
         </thead>
         <tbody>
           <tr>
@@ -60,8 +59,8 @@ function App() {
           </tr>
           <tr>
             <td>Apk Link</td>
-            <td><a href="https://drive.google.com/file/d/1nYDaNSzaAuz4NhoT6USWah_LIxbkIlVa/view?usp=share_link"><img src={app}/></a></td>
-            <td><a href="https://drive.google.com/file/d/1RVNtHL2i99XlXtgyzaIcDY6fV2h9Elgh/view?usp=share_link"><img src={app}/></a></td>
+            <td><a href="https://drive.google.com/file/d/1nYDaNSzaAuz4NhoT6USWah_LIxbkIlVa/view?usp=share_link"><img src={app} alt="Apk"/></a></td>
+            <td><a href="https://drive.google.com/file/d/1RVNtHL2i99XlXtgyzaIcDY6fV2h9Elgh/view?usp=share_link"><img src={app} alt="Apk"/></a></td>
           </tr>
         </tbody>
       </table>
