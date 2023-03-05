@@ -32,17 +32,19 @@
   padding: 5px;
   font-style: italic;
   font-weight: 500;
+  text-align: center;
 }
 
-img{
-  width: 20%;
-  margin-left:35%;
+.logo{
+  height: 1px;
+  width: 1px;
 }
 
-a > img{
-  height: 10%;
-  margin: 0px;
+.download{
+  height: 1px;
+  width: 1px;
 }
+
 
 .comparison-table {
   table-layout: fixed;
@@ -81,7 +83,7 @@ a > img{
 @media only screen and (min-width: 1200px) and (max-width: 2000px){
   .comparison-table th,
   .comparison-table td {
-    font-size: 20px;
+    font-size: 22px;
     padding: 16px;
   }
   .app_div{
@@ -91,11 +93,20 @@ a > img{
     padding-left: 8%;
     padding-right: 8%;
   }
+  .logo{
+    height: 100px;
+    width: 100px;
+  }
+  
+  .download{
+    height: 50px;
+    width: 50px;
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 1200px){
   .comparison-table th,
   .comparison-table td {
-    font-size: 16px;
+    font-size: 20px;
     padding: 12px;
   }
   .app_div{
@@ -105,12 +116,26 @@ a > img{
     padding-left: 3%;
     padding-right: 3%;
   }
+  .logo{
+    height: 70px;
+    width: 70px;
+  }
+  .download{
+    height: 35px;
+    width: 35px;
+  }
+  .heading{
+    font-size: 43px;
+  }
+  .description{
+    font-size: 21px;
+  }
 
 }
-@media only screen and (min-width: 450px) and (max-width: 700){
+@media only screen and (min-width: 450px) and (max-width: 700px){
   .comparison-table th,
   .comparison-table td {
-    font-size: 12px;
+    font-size: 18px;
     padding: 8px;
   }
   .app_div{
@@ -120,13 +145,27 @@ a > img{
     padding-left: 0%;
     padding-right: 0%;
   }
-
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
+  .download{
+    height: 25px;
+    width: 25px;
+  }
+  .heading{
+    font-size: 41px;
+  }
+  .description{
+    font-size: 19px;
+  }
 }
-@media only screen and (min-width: 100px) and (max-width: 450){
+
+@media only screen and (min-width: 100px) and (max-width: 450px){
   .comparison-table th,
   .comparison-table td {
-    font-size: 6px;
-    padding: 3px;
+    font-size: 16px;
+    padding: 5px;
   }
   .app_div{
     padding: 30px 20px;
@@ -135,5 +174,18 @@ a > img{
     padding-left: 0%;
     padding-right: 0%;
   }
-
+  .logo{
+    height: 40px;
+    width: 40px;
+  }
+  .download{
+    height: 20px;
+    width: 20px;
+  }
+  .heading{
+    font-size: 39px;
+  }
+  .description{
+    font-size: 17px;
+  }
 }
