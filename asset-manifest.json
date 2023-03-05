@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Calculator_Frontend/static/css/main.e848f669.css",
-    "main.js": "/Calculator_Frontend/static/js/main.52bf041d.js",
+    "main.css": "/Calculator_Frontend/static/css/main.6fb92575.css",
+    "main.js": "/Calculator_Frontend/static/js/main.cf8b4d17.js",
     "static/js/787.c1112931.chunk.js": "/Calculator_Frontend/static/js/787.c1112931.chunk.js",
     "static/media/reactnativelogo.png": "/Calculator_Frontend/static/media/reactnativelogo.702a26a65699561606d2.png",
     "static/media/flutterlogo.png": "/Calculator_Frontend/static/media/flutterlogo.4d70b69cc15d0f9395ad.png",
     "static/media/app.png": "/Calculator_Frontend/static/media/app.858b570a440a22f8f836.png",
     "index.html": "/Calculator_Frontend/index.html",
-    "main.e848f669.css.map": "/Calculator_Frontend/static/css/main.e848f669.css.map",
-    "main.52bf041d.js.map": "/Calculator_Frontend/static/js/main.52bf041d.js.map",
+    "main.6fb92575.css.map": "/Calculator_Frontend/static/css/main.6fb92575.css.map",
+    "main.cf8b4d17.js.map": "/Calculator_Frontend/static/js/main.cf8b4d17.js.map",
     "787.c1112931.chunk.js.map": "/Calculator_Frontend/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e848f669.css",
-    "static/js/main.52bf041d.js"
+    "static/css/main.6fb92575.css",
+    "static/js/main.cf8b4d17.js"
   ]
 }
