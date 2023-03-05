@@ -7,7 +7,9 @@ function App() {
   return (
     <div className='app_div'>
 
-    <p className='heading'>Calculator app comparison created with react native and flutter.</p>
+    <p className='heading'>React Native vs Flutter</p>
+
+    <p className='description'>This website provides a detailed comparison of two popular cross-platform mobile app development frameworks, React Native and Flutter. We have evaluated the two frameworks using a basic calculator app as a benchmark and have analyzed their key features, performance, development time and more. Whether you're a developer or a business owner looking to build a mobile app, this comparison will help you make an informed decision on which framework to choose.</p>
 
       <div className='tablefull'>
       <table class="comparison-table">
@@ -53,13 +55,13 @@ function App() {
             <td>⭐⭐⭐</td>
           </tr>
           <tr>
-            <td>Time To Build</td>
+            <td>Development Time</td>
             <td>⭐⭐⭐⭐</td>
             <td>⭐⭐</td>
           </tr>
           <tr>
             <td>Apk Link</td>
-            <td><a href="https://drive.google.com/file/d/1nYDaNSzaAuz4NhoT6USWah_LIxbkIlVa/view?usp=share_link"><img src={app} alt="Apk"/></a></td>
+            <td><a className='tt' href="https://drive.google.com/file/d/1nYDaNSzaAuz4NhoT6USWah_LIxbkIlVa/view?usp=share_link"><img className='ii' src={app} alt="Apk"/></a></td>
             <td><a href="https://drive.google.com/file/d/1RVNtHL2i99XlXtgyzaIcDY6fV2h9Elgh/view?usp=share_link"><img src={app} alt="Apk"/></a></td>
           </tr>
         </tbody>
